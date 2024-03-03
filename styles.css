@@ -87,8 +87,8 @@ h3 {
 .endorsement {
   width: 90%;
   min-height: 100px;
-  padding: 1rem;
-  margin: 1rem;
+  padding: 1rem 0.5rem;
+  margin: 1rem auto;
   background-color: #ffffff;
 }
 
