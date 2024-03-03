@@ -141,4 +141,17 @@ h4 {
   .input-flex {
     width: 100%;
   }
+
+  .message-input {
+    width: 80%;
+  }
+
+  .input-flex {
+    flex-direction: column;
+  }
+  .input-from,
+  .input-to {
+    width: 80%;
+    justify-content: center;
+  }
 }
