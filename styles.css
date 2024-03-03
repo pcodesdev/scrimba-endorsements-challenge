@@ -35,7 +35,6 @@ h3 {
 .message-input {
   width: 90%;
   height: 6rem;
-  text-align: left;
   font-size: 1rem;
   padding: 0.5rem;
   background-color: #444059;
@@ -153,5 +152,8 @@ h4 {
   .input-to {
     width: 80%;
     justify-content: center;
+  }
+  h3 {
+    text-align: center;
   }
 }
