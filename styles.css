@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+  user-select: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.mobile-card {
+  max-width: 800px;
+  background-color: #1b1924;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  /* overflow-y: scroll; */
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  margin: 3rem 0 1rem 0;
+  pointer-events: none;
+}
+
+h3 {
+  font-size: 2rem;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.message-input {
+  width: 90%;
+  height: 6rem;
+  text-align: left;
+  font-size: 1rem;
+  padding: 0.5rem;
+  background-color: #444059;
+  color: #8f8f8f;
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+  border: none;
+  font-weight: 400;
+}
+
+.input-flex {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.input-from,
+.input-to {
+  flex-grow: 1;
+  width: 200px;
+  height: 70px;
+  background-color: #444059;
+  color: #8f8f8f;
+  margin: 0 0 1rem 1rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: 400;
+  border: none;
+  padding-left: 1rem;
+}
+
+.publish-btn {
+  width: 90%;
+  height: 4rem;
+  color: #04131c;
+  background-color: #28a9f1;
+  font-size: 1.5rem;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.endorsement {
+  width: 90%;
+  min-height: 100px;
+  padding: 1rem;
+  margin: 1rem;
+  background-color: #ffffff;
+}
+
+.from {
+  background-color: #28a9f1;
+  color: #444059;
+}
+
+.to {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+p {
+  font-size: 1rem;
+}
+
+h4 {
+  /* padding: 1rem; */
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.like-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: right;
+  justify-content: right;
+  gap: 1rem;
+}
+
+.unlike-btn,
+.like-btn {
+  cursor: pointer;
+  border: none;
+  font-size: 2rem;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 0.4rem;
+}
