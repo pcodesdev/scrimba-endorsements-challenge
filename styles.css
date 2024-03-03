@@ -129,3 +129,16 @@ h4 {
   height: 4rem;
   border-radius: 0.4rem;
 }
+
+@media screen and (max-width: 768px) {
+  .mobile-card {
+    width: 100%;
+  }
+
+  .publish-btn {
+    width: 70%;
+  }
+  .input-flex {
+    width: 100%;
+  }
+}
